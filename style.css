@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background-color: #E5ECD5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+/* clear font and bold color for easy reading */
+header > div > h1 {
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 0px;
+  margin: 2px;
+  margin-bottom: 15px;
+  color: #F8C4F5;
+}
+
+.text-center {
+  text-align: center;
+}
+
+header > div >h3 {
+  padding: 0;
+  margin:-25px 15px 0px 25px; 
+  border: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-container-color {
+  background-color: #436E3C;
+}
+
+.wrap {
+  width: 600px; 
+  margin: auto;
+}
+
+.list {
+  width: fit-content;
+}
+/* image width to fit image neatly within text wrap based on height */
+.img {
+  width: 25%;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container-color {
+  background-color:#436E3C;
+  bottom: 0;
+  height: 50px;
+}
+
+footer > div > h3 {
+  padding:10px;
+  margin: 0px 0px 0px 15px; 
+  border: 10;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  color: #F8C4F5;
+}
+/* pseudo class in love hate order */
+a:link  { color: #436E3C};
+a:visited { color: #F8C4F5 };
+a:hover { color: #9BF91F};
+a:active { color: white };
